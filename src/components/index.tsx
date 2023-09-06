@@ -1,3 +1,3 @@
 import Splash from './Splash/Splash';
-
-export {Splash};
+import DrawerBody from './DrawerBody/DrawerBody';
+export {Splash, DrawerBody};

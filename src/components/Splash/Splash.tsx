@@ -22,7 +22,7 @@ export default function Splash({navigation}: SplashProps): JSX.Element {
         logoAndTitleShrink(),
         titleBounce(),
       ]).start(() => {
-        navigation.navigate('DrawerNavigator');
+        navigation.replace('DrawerNavigator');
       });
     }, 300);
   }, []);

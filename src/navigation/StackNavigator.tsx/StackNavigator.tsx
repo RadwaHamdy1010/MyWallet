@@ -6,7 +6,7 @@ import DrawerNavigator from '../DrawerNavigator/DrawerNavigator';
 
 const Stack = createStackNavigator();
 
-export default function StackNavigator(): JSX.Element {
+export default function StackNavigator(props): JSX.Element {
   return (
     <Stack.Navigator
       initialRouteName="SplashScreen"
