@@ -86,8 +86,7 @@ export default function Splash({navigation}: SplashProps): JSX.Element {
           },
         ]}>
         <Lottie
-          //  style={[styles.lottieContainer]}
-          source={require('./flying-wallet-money.json')}
+          source={require('../../Assets/lottie-files/flying-wallet-money.json')}
           autoPlay
           loop
         />
